@@ -1,6 +1,4 @@
-<?= $this->extend('layouts/main') ?>
 
-<?= $this->section('content') ?> 
 <div class="maint">
     <div class="huge header">
        <div class="header">For Students</div> 
@@ -91,4 +89,3 @@
     </div>
 
 </div>
-<?= $this->endSection() ?>
