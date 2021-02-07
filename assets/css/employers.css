@@ -1,0 +1,17 @@
+.maint{
+    padding: 2.5rem;
+    margin-top: 4rem;
+}
+.header{
+    font-weight: bolder;
+    font-size: 32px;
+    line-height: 44px;
+    font-family: 'Roboto', sans-serif;
+    color: #FF4500;
+}
+.wawis{
+    color: #002138;
+    font-size: 25px;
+    padding-top: 0.5rem;
+    font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
+  }

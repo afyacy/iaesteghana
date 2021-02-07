@@ -1,0 +1,99 @@
+img{
+    width: 99.9%;
+}
+.main { 
+    position: relative; 
+    width: 100%; /* for IE 6 */
+ }
+.homeh1 { 
+    position: absolute;
+    bottom: 3px;
+    left: 16px;
+    background-color: rgba(0, 33, 56, 0.7);
+    color: white;
+    padding: 2rem 23rem 2rem 2rem;
+    height: 270px;
+ }
+
+.homeh1 #title {
+  font-size: 4rem;
+}
+
+@media (max-width: 1200px) {
+  .homeh1 #title {
+    font-size: calc(1.9rem + 2.1vw);
+  }
+}
+
+.homeh1 #subtitle {
+  font-size: 2rem;
+}
+
+@media (max-width: 1200px) {
+  .homeh1 #subtitle{
+    font-size: calc(0.7625rem + 1.3vw);
+  }
+}
+
+
+ /* Extra small devices (phones, 600px and down) */
+ @media only screen and (max-width: 600px) {
+  .main{
+    margin-top: 4rem;
+  }
+  .homeh1 { 
+    position: absolute;
+    top: 3px;
+    left: 0px;
+    background-color: rgba(0, 33, 56, 0.7);
+    color: white;
+    padding: 2rem 1rem 18rem 2rem;
+    height: 270px;
+    font-size: 12px;
+ }
+ #subtitle{
+   line-height-step: 4px;
+ }
+ }
+
+  /* Extra small devices (phones, 320px and down)*/
+  @media only screen and (max-width: 320px) {
+    .homeh1 { 
+      position: absolute;
+      top: 3px;
+      left: 0px;
+      background-color: rgba(0, 33, 56, 0.7);
+      color: white;
+      padding: 1rem 0rem 1rem 1rem;
+      height: 270px;
+      font-size: 12px;
+   }
+   }
+
+ /* Small devices (portrait tablets and large phones, 600px and up) */
+ @media only screen and (min-width: 600px) {
+  .main{
+    margin-top: 4rem;
+  }
+  .homeh1 { 
+    position: absolute;
+    left: 0px;
+    background-color: rgba(0, 33, 56, 0.7);
+    color: white;
+    padding: 2rem 1rem 18rem 2rem;
+    height: 270px;
+    font-size: 12px;
+ }
+ #subtitle{
+   line-height-step: 4px;
+ }
+ }
+ 
+ /* Medium devices (landscape tablets, 768px and up) */
+ @media only screen and (min-width: 768px) {}
+ 
+ /* Large devices (laptops/desktops, 992px and up) */
+ @media only screen and (min-width: 992px) {}
+ 
+ /* Extra large devices (large laptops and desktops, 1200px and up) */
+ @media only screen and (min-width: 1200px) {} 
