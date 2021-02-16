@@ -1,0 +1,2 @@
+<?php
+echo "Sent successfully";

@@ -21,21 +21,21 @@
           <div class="carousel-item active">
             <div class="card">
               <div class="card-body">
-                <img class="d-block w-100" src="public/assets/images/about/DSC_0410.JPG" alt="First slide">
+                <img class="d-block w-100" src="<?= base_url() ?>/assets/images/about/DSC_0410.JPG" alt="First slide">
               </div>
             </div>
           </div>
           <div class="carousel-item">
             <div class="card">
               <div class="card-body">
-                <img class="d-block w-100" src="public/assets/images/about/P1010730.JPG" alt="First slide">
+                <img class="d-block w-100" src="<?= base_url() ?>/assets/images/about/P1010730.JPG" alt="First slide">
               </div>
             </div>
           </div>
           <div class="carousel-item">
             <div class="card">
               <div class="card-body">
-                <img class="d-block w-100" src="public/assets/images/about/P1010965.JPG" alt="First slide">
+                <img class="d-block w-100" src="<?= base_url() ?>/assets/images/about/P1010965.JPG" alt="First slide">
               </div>
             </div>
           </div>

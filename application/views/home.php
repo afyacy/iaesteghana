@@ -1,6 +1,6 @@
 
 <div class="main">
-  <img src="assets/images/home/IMG_0736.JPG" class="img-fluid"/>
+  <img src="<?= base_url() ?>/assets/images/home/IMG_0736.JPG" class="img-fluid"/>
   <div class="">
     <h1 class="homeh1">
       <span id="title">Paid Internships Worldwide!</span> <br />
